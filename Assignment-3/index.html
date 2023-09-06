@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Exercise1</h2>
+            <div class="box"></div>
+            <div class="marker-container">
+            <div class="marker">
+                <span class="circle Content"></span>
+                <span>Content</span> 
+            </div>
+            <div class="marker">
+                <span class="circle Padding"></span>
+                <span>Padding</span>
+            </div>
+            <div class="marker">
+                <span class="circle Border"></span>
+                <span>Border</span>
+            </div>
+            <div class="marker">
+                <span class="circle Margin"></span>
+                <span>Margin</span>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2>Exercise2</h2>
+            <p>no border on these boxes.</p>
+            <div class="container">
+            <div class="child-box"></div>
+            <div class="child-box"></div>
+            <div class="child-box"></div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <p>1px border on these boxes.</p>
+            <div class="container">
+                <div class="child-box border"></div>
+                <div class="child-box border"></div>
+                <div class="child-box border"></div>
+                </div>
+        </section>
+        <hr>
+        <section>
+            <p>1px border on these boxes but they are in same line.</p>
+            <div class="container">
+                <div class="child-box border-box"></div>
+                <div class="child-box border-box"></div>
+                <div class="child-box border-box"></div>
+        </section>
+    </main>
+</body>
+</html>

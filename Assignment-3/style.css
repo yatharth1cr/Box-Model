@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custom */
+body {
+  line-height: 1.5;
+}
+h1 {
+  font-size: 60px;
+  padding: 32px 250px;
+  text-align: center;
+}
+hr {
+  width: 600px;
+  border-style: dashed;
+  margin: 12px auto;
+  margin-top: 20px;
+  color: grey;
+}
+h2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 40px 0;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #baba55;
+  border: 25px solid #add8e6;
+  margin: 0 auto;
+  outline: 5px solid black;
+  box-shadow: 0 0 0 20px salmon;
+}
+.marker-container {
+  text-align: center;
+  margin-top: 40px;
+}
+.circle {
+  background-color: #baba55;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.Padding {
+  background-color: #add8e6;
+}
+.Border {
+  background-color: black;
+}
+.Margin {
+  background-color: salmon;
+}
+.marker {
+  margin: 0 16px;
+  display: inline-block;
+}
+p {
+  font-size: 24px;
+  text-align: center;
+}
+.container {
+  width: 600px;
+  border: 1px solid black;
+  margin: 0 auto;
+  font-size: 0;
+}
+.child-box {
+  width: 180px;
+  height: 100px;
+  margin: 10px;
+  background-color: gray;
+  border: 1px solid black;
+  display: inline-block;
+}
+.border {
+  border: 1px solid black;
+}
+.border-box {
+  box-sizing: border-box;
+}
